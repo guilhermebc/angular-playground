@@ -1,0 +1,22 @@
+<ngx-charts-pie-chart
+[doughnut]="true"
+[labels]="true"
+[arcWidth]="0.35"
+[trimLabels]="true"
+[tooltipDisabled]="true"
+[scheme]="{domain: ['#38cf5b', '#f64545', '#fac219']}"
+[results]='[
+    {
+      "name": "Passed",
+      "value": 40632
+    },
+    {
+      "name": "Broken",
+      "value": 50000
+    },
+    {
+      "name": "Loading",
+      "value": 50000
+    }
+  ]
+'></ngx-charts-pie-chart>
